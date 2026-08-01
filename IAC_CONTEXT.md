@@ -63,7 +63,7 @@ The main success measures are:
 
 ## Current execution priority
 
-The documented priority is Stage 1: complete Cafe Package v2.0, then validate it through review, acceptance, and product learning before moving to the next stage.
+The documented priority is Stage 1: finish and accept Cafe Package v2.1 Preview Baseline. The founder has accepted the current Preview UI and product scope as the frozen baseline; functional acceptance and performance acceptance are not yet complete. Only confirmed defect, security, data-protection, performance, reliability, localization, and acceptance-documentation changes are permitted until that acceptance is recorded. See [docs/IAC_CURRENT_STATUS.md](docs/IAC_CURRENT_STATUS.md) for live detail.
 
 ## Core principles
 

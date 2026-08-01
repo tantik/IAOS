@@ -152,18 +152,32 @@ Do not create documents that do not improve decisions, reduce mistakes, accelera
 
 The current Active Stage is:
 
-**Finish Cafe Package v2.0**
+**Finish and accept Cafe Package v2.1 Preview Baseline**
+
+The founder has accepted the current Preview UI and product scope as the frozen baseline (see `tantik/line-business-os/docs/product/cafe-package-v2-1-baseline-and-acceptance-plan.md`). This baseline is not yet fully acceptance-tested, and performance is not yet accepted.
+
+Until acceptance is recorded, only the following changes are permitted against the baseline:
+
+- confirmed defect fixes;
+- security fixes;
+- data-protection fixes;
+- performance fixes;
+- reliability fixes;
+- localization fixes;
+- acceptance-documentation updates.
 
 The immediate objective is to:
 
 1. review the actual implementation evidence in `tantik/line-business-os`;
-2. perform a complete acceptance audit;
-3. fix verified defects;
+2. perform a complete functional and performance acceptance audit against the frozen baseline;
+3. fix verified defects within the permitted change types above;
 4. confirm functional, security, tenant-isolation, permission, UX, localization, and performance requirements;
 5. record founder acceptance;
 6. update `docs/IAC_CURRENT_STATUS.md`.
 
-Do not start Platform Standardization, Platform Foundation, a second product, a third product, or broad active sales until the current stage is accepted, unless the founder explicitly changes the Active Stage.
+The next major stage remains **Cafe Product Review**, but it is not Active yet.
+
+Do not start Cafe Product Review, Platform Standardization, Platform Foundation, a second product, a third product, or broad active sales until the current stage is accepted, unless the founder explicitly changes the Active Stage.
 
 ## 6. Starting a work session
 
