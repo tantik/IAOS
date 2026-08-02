@@ -7,7 +7,7 @@ Purpose: The main operating document of IAC. It exists to help humans and AI mak
 
 ## Executive Summary
 
-IAC is the company and product ecosystem building SaaS products for Japanese B2B businesses, on top of ORUWA Business OS. IAOS exists because IAC is founder-led and AI-assisted: without a shared operating system, decisions repeat, mistakes repeat, and AI-assisted work loses context between sessions. The current company priority is a single Active Stage — finish Cafe Package v2.0 and get it accepted — with everything else Planned or Backlog.
+IAC is the company and product ecosystem building SaaS products for Japanese B2B businesses, on top of ORUWA Business OS. IAOS exists because IAC is founder-led and AI-assisted: without a shared operating system, decisions repeat, mistakes repeat, and AI-assisted work loses context between sessions. The current company priority is a single Active Stage — finish and accept Cafe Package v2.1 Preview Baseline — with everything else Planned or Backlog.
 
 Use this document to check three things before starting significant work: what the current Active Stage is, whether the task belongs to it, and whether it should proceed, wait for a later stage, or go to backlog.
 
@@ -26,14 +26,15 @@ If a task does not help answer these questions better, it does not belong in thi
 
 ## 3. Current State
 
-Active Stage: **Finish Cafe Package v2.0** (see [docs/IAC_CURRENT_STATUS.md](IAC_CURRENT_STATUS.md) for the live operational detail).
+Active Stage: **Finish and accept Cafe Package v2.1 Preview Baseline** (see [docs/IAC_CURRENT_STATUS.md](IAC_CURRENT_STATUS.md) for the live operational detail). The founder has accepted the current Preview UI and product scope as the frozen baseline; functional and performance acceptance are not yet complete.
 
 Verified in this repository:
 - IAOS foundation, accepted ADRs ([decisions/](../decisions/)), workflows, standards, and prompts exist and are in active use.
 - The IAC documentation package (this file, [IAC_CONTEXT.md](../IAC_CONTEXT.md), [IAC_CURRENT_STATUS.md](IAC_CURRENT_STATUS.md), [IAC_DECISIONS_INDEX.md](IAC_DECISIONS_INDEX.md)) exists and is accepted.
 
 Not yet verified in this repository:
-- Cafe Package v2.0 founder acceptance.
+- Cafe Package v2.1 Preview Baseline functional acceptance.
+- Cafe Package v2.1 Preview Baseline performance acceptance.
 - A completed market-intelligence cycle.
 - Cafe Product Review outputs.
 
@@ -108,7 +109,7 @@ A task that scores well on 1–4 but fails 5/6 (it can wait, and isn't the bottl
 ## 9. Product Portfolio
 
 - **ORUWA Business OS** — the shared multi-tenant platform. One shared SaaS architecture, not tenant-specific forks. Platform Billing (tenant → IAC) is kept strictly separate from Merchant Payments (business → its own customers).
-- **Cafe Package** — the first vertical product, currently in v2.0 completion. Proves the platform before anything is generalized from it.
+- **Cafe Package** — the first vertical product, currently finishing and accepting the v2.1 Preview Baseline. Proves the platform before anything is generalized from it.
 - **Future verticals** — selected only through the product-selection process in [Section 12](#12-current-priorities) / Stage 6, based on current Japanese-market research, not assumption.
 
 ### UI foundation decision (adopted)
@@ -121,7 +122,7 @@ There is exactly one **Active** Stage at any time. Everything else is **Planned*
 
 ```
 ACTIVE
-Finish Cafe Package v2.0
+Finish and accept Cafe Package v2.1 Preview Baseline
    ↓
 Cafe Product Review
    ↓
@@ -142,7 +143,7 @@ Active Sales
 
 Every stage follows [Section 17](#17-definition-of-success) before it can move from Active to Completed.
 
-**Finish Cafe Package v2.0** (Active) — functional, permission, tenant-isolation, UX, and localization review completed; known bugs reviewed; founder acceptance recorded.
+**Finish and accept Cafe Package v2.1 Preview Baseline** (Active) — current Preview UI and product scope frozen as baseline; functional, permission, tenant-isolation, UX, localization, and performance acceptance completed; known bugs reviewed; founder acceptance recorded. Until acceptance is recorded, only confirmed defect, security, data-protection, performance, reliability, localization, and acceptance-documentation changes are permitted.
 
 **Cafe Product Review** (mandatory, Planned) — must include:
 - internal review of strengths and weaknesses;
@@ -168,12 +169,12 @@ Changes stay limited to the proven core. This is not a rewrite.
 ## 12. Current Priorities
 
 **Critical now**
-- Complete Cafe Package v2.0 and record founder acceptance.
+- Complete functional and performance acceptance of Cafe Package v2.1 Preview Baseline and record founder acceptance.
 - Keep Platform Billing separate from Merchant Payments in any related work.
 - Preserve tenant isolation and approval gates in any related work.
 
 **Important next**
-- Cafe Product Review, once Cafe Package v2.0 is accepted.
+- Cafe Product Review, once Cafe Package v2.1 Preview Baseline is accepted.
 - Platform Standardization, limited to what Cafe Package proved.
 
 **Later**
@@ -235,7 +236,7 @@ Only then: **Completed.**
 
 ## 18. Next Action
 
-Complete the Stage 1 acceptance review for Cafe Package v2.0 (functional, permission, tenant-isolation, UX, localization) and record the outcome — accepted or not — in [docs/IAC_CURRENT_STATUS.md](IAC_CURRENT_STATUS.md).
+Complete the Stage 1 acceptance review for Cafe Package v2.1 Preview Baseline (functional, permission, tenant-isolation, UX, localization, and performance) and record the outcome — accepted or not — in [docs/IAC_CURRENT_STATUS.md](IAC_CURRENT_STATUS.md).
 
 ## Revision History
 

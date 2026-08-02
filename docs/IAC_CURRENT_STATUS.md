@@ -7,7 +7,13 @@ Purpose: Provide a short operational status view of the IAC and IAOS documentati
 
 ## Active stage
 
-Stage 1: complete Cafe Package v2.0 and verify that the work meets the documented acceptance criteria.
+Stage 1: finish and accept Cafe Package v2.1 Preview Baseline.
+
+The founder has accepted the current Preview UI and product scope as the frozen baseline. The baseline is not yet fully acceptance-tested: functional acceptance and performance acceptance are both still incomplete. Until acceptance is recorded, only confirmed defect, security, data-protection, performance, reliability, localization, and acceptance-documentation changes are permitted against the baseline.
+
+The next major stage remains Cafe Product Review, but it is not Active yet.
+
+Source reference: `tantik/line-business-os/docs/product/cafe-package-v2-1-baseline-and-acceptance-plan.md`.
 
 ## Completed and verified work
 
@@ -17,7 +23,7 @@ Stage 1: complete Cafe Package v2.0 and verify that the work meets the documente
 ## Completed but not yet accepted work
 
 - The IAC documentation package has been drafted for founder review and is not yet treated as accepted strategy.
-- No product acceptance record for Cafe Package v2.0 is present in this repository as of this update.
+- No functional or performance acceptance record for Cafe Package v2.1 Preview Baseline is present in this repository as of this update.
 
 ## Current work in progress
 
@@ -32,7 +38,7 @@ Stage 1: complete Cafe Package v2.0 and verify that the work meets the documente
 
 ## Blockers
 
-- No verified product-repository evidence for Cafe Package v2.0 acceptance is available in this workspace.
+- No verified product-repository evidence for Cafe Package v2.1 functional or performance acceptance is available in this workspace.
 - Current market research is not yet documented as a completed cycle in this repository.
 
 ## Known risks
@@ -42,11 +48,11 @@ Stage 1: complete Cafe Package v2.0 and verify that the work meets the documente
 
 ## Next milestone
 
-Record a clear Stage 1 acceptance outcome for Cafe Package v2.0 and update this status document accordingly.
+Record a clear Stage 1 functional and performance acceptance outcome for Cafe Package v2.1 Preview Baseline and update this status document accordingly.
 
 ## Next practical action
 
-Review the current Cafe Package v2.0 evidence in the relevant product repository and record whether the stage has met the acceptance criteria.
+Review the current Cafe Package v2.1 Preview Baseline evidence in `tantik/line-business-os` (see `docs/product/cafe-package-v2-1-baseline-and-acceptance-plan.md`) and record whether the baseline has met the functional and performance acceptance criteria.
 
 ## Relevant repository references
 
